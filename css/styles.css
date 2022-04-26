@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  margin: 10px !important;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  max-width: 1300px;
+  margin: 15px auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-control {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+p {
+  margin-bottom: 0rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+#clear {
+  margin-left: 20px;
+}
+
+.bg-light {
+  background-color: #222324 !important;
+  border-radius: 4px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+#hh {
+  color: #d6001c;
+  font-weight: bold;
+}
+
+#query_comparer{
+  color:white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d6001c;
+  border-color: #d6001c;
+}
+
+.btn-primary:hover {
+  background-color: #e53048;
+  border-color: #e53048;
+}
+
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #ced4da;
+    border-color: #ced4da;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #555c62;
+  border-color: #555c62;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.form-check{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+
+.form-check-input:checked {
+    background-color: #d6001c;
+    border-color: #d6001c;
+}
+
+.btn {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.badge{
+margin-right: 10px;
+margin-bottom: 10px;
+font-size: .9em;
+font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+   }
+
+a:hover{
+  color: red;
+}
+
+.apexcharts-menu-item.exportPNG {
+  display: none;
+}
+
+.apexcharts-menu-item.exportSVG {
+  display: none;
+}
